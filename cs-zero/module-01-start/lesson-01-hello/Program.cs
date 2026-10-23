@@ -4,10 +4,14 @@
 Console.WriteLine("Привет, .NET");
 
 Console.Write("Введите ваше имя: ");
-var name = Console.ReadLine();
+string? name = Console.ReadLine();
 
 Console.Write("Введите ваш город: ");
-var city = Console.ReadLine();
+string? city = Console.ReadLine();
 
 Console.WriteLine($"Привет, {name}!");
 Console.WriteLine($"Город: {city}");
+
+Console.Write("Год рождения: ");
+string? birthYearInput = Console.ReadLine();
+Console.WriteLine($"Ты родился в {birthYearInput} году.");
