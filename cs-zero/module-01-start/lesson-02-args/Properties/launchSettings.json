@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "lesson-02-args": {
+      "commandName": "Project",
+      "commandLineArgs": "привет мир"
+    }
+  }
+}
